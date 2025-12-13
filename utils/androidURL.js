@@ -147,25 +147,14 @@ async function getAndroidURL720p(pid) {
   }).then(r => r.json())
   const ssss = await fetch("https://play.miguvideo.com/playurl/v1/play/playurl?sign=ba3fed4cd92710cc51cc58f3b89d4689&rateType=3&contId=608807420&timestamp=1765629576272&salt=75482825", {
     headers: {
-    // 核心：模拟国内 Chrome 浏览器
-  "User-Agent": "Mozilla/5.0 (Linux; Android 13; MI 13 Pro Build/TKQ1.221005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36",
-  // 国内运营商/地域标识（可选，建议保留）
-  "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-  // 接受的内容类型
-  "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-  // 缓存策略
-  "Cache-Control": "max-age=0",
-  // 避免被识别为爬虫（关键）
-  "Sec-Fetch-Dest": "document",
-  "Sec-Fetch-Mode": "navigate",
-  "Sec-Fetch-Site": "same-origin",
-  "Sec-Fetch-User": "?1",
-  // 国内常见的编码
-  "Accept-Encoding": "gzip, deflate, br",
-  // 咪咕视频必要的 Referer（根据请求的页面调整）
-  "Referer": "https://www.miguvideo.com/",
-  // 保持连接
-  "Connection": "keep-alive",
+   "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17.0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.45(0x18002d29) NetType/WIFI Language/zh_CN",
+    "Accept-Language": "zh-CN,zh;q=0.9",  
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+    "Referer": "https://www.miguvideo.com/", 
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1", 
+    "X-Requested-With": "com.tencent.mm",  
   "AppVersion": '2600034600',
   "TerminalId": 'android',
   'X-UP-CLIENT-CHANNEL-ID': '2600034600-99000-201600010010028'
