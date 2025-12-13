@@ -47,7 +47,7 @@ jobs:
         run: |    
           echo "CHANGES: ${{ env.CHANGES }}"
           # 拉取最新代码（用 PAT 鉴权，避免 bot 身份）
-          git pull https://${{ env.USER_NAME }}:${{ env.PAT_TOKEN }}@${{ env.REPO_URL }} main --rebase
+          git pull https://${{ env.USER_NAME }}:${{ env.MIGU_TOKEN }}@${{ env.REPO_URL }} main --rebase
           # 配置本地 Git 身份（你的账号）
           git config --local user.email "${{ env.USER_EMAIL }}"
           git config --local user.name "${{ env.USER_NAME }}"
