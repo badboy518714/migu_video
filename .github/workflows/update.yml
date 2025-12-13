@@ -71,7 +71,5 @@ jobs:
       - name: 推送更改
         if: ${{ env.CHANGES != 0 }}
         run: |
-          # 替换远程地址（用环境变量，避免硬编码 PAT）
-          git remote set-url https://${{ env.USER_NAME }}:${{ env.MIGU_TOKEN }}@${{ env.REPO_URL }}
-          # 强制推送（解决历史冲突，稳定后可去掉 --force）
-          git push -u origin main --force
+          # HTTPS 方式（直接指定 URL 推送）
+          git push -u https://${{ env.USER_NAME }}:${{ env.MIGU_TOKEN }}@${{ env.REPO_URL }} main 
