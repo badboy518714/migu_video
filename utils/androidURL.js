@@ -152,7 +152,7 @@ async function getAndroidURL720p(pid) {
   'X-UP-CLIENT-CHANNEL-ID': '2600034600-99000-201600010010028'
 }
   }).then(r => r.json())
-  console.dir(12345, ssss, { depth: null })
+  console.dir(ssss, { depth: null })
   const url = respData.body.urlInfo?.url
   // console.log(rateType)
   // console.log(url)
