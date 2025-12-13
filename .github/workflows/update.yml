@@ -56,7 +56,7 @@ jobs:
           git stash push -u -m "temp stash for pull rebase"
           
           # 步骤2：拉取最新代码（补全完整 URL，用 PAT 鉴权）
-          git pull https://${{ env.USER_NAME }}:${{ env.MIGU_TOKEN }}@${{ env.REPO_URL }} main --rebase
+          git pull https://badboy518714:${{ env.MIGU_TOKEN }}@github.com/badboy518714/migu_video.git main --rebase
           
           # 步骤3：恢复暂存的更改（保留本地修改）
           git stash pop || echo "No stash to pop (safe to ignore)"
