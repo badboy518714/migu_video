@@ -48,11 +48,11 @@ async function fetchMiguVideo(url){
   }
 
 }
+export {    fetchMiguVideo    }
 
-
-async function sss(){
-    const url = "https://play.miguvideo.com/playurl/v1/play/playurl?sign=98afab254cf07dd4ebeb89988978fb79&rateType=3&contId=608807420&timestamp=1765637616974&salt=95145825"
-    const respData = await fetchMiguVideo(url);
-//    console.log(respData)
-}
-sss()
+// async function sss(){
+//     const url = "https://play.miguvideo.com/playurl/v1/play/playurl?sign=98afab254cf07dd4ebeb89988978fb79&rateType=3&contId=608807420&timestamp=1765637616974&salt=95145825"
+//     const respData = await fetchMiguVideo(url);
+// //    console.log(respData)
+// }
+// sss()
