@@ -552,11 +552,8 @@
     <programme channel="CCTV6电影" start="20251214020714 +0800" stop="20251214033659 +0800">
         <title lang="zh">缘定今生</title>
     </programme>
-    <programme channel="CCTV6电影" start="20251214033659 +0800" stop="20251214041132 +0800">
+    <programme channel="CCTV6电影" start="20251214033659 +0800" stop="20251214052222 +0800">
         <title lang="zh">万湖会议（上）</title>
-    </programme>
-    <programme channel="CCTV6电影" start="20251214041132 +0800" stop="20251214052222 +0800">
-        <title lang="zh">万湖会议（下）</title>
     </programme>
     <programme channel="CCTV6电影" start="20251214052222 +0800" stop="20251214054132 +0800">
         <title lang="zh">我和我的祖国：北京你好</title>
@@ -594,10 +591,10 @@
     <programme channel="CCTV6电影" start="20251214155322 +0800" stop="20251214162010 +0800">
         <title lang="zh">至暗时刻（上）</title>
     </programme>
-    <programme channel="CCTV6电影" start="20251214162010 +0800" stop="20251214180750 +0800">
+    <programme channel="CCTV6电影" start="20251214162010 +0800" stop="20251214180815 +0800">
         <title lang="zh">至暗时刻（下）</title>
     </programme>
-    <programme channel="CCTV6电影" start="20251214180750 +0800" stop="20251214200108 +0800">
+    <programme channel="CCTV6电影" start="20251214180815 +0800" stop="20251214200108 +0800">
         <title lang="zh">淮海战役(上)</title>
     </programme>
     <programme channel="CCTV6电影" start="20251214200108 +0800" stop="20251214220000 +0800">
@@ -607,7 +604,7 @@
         <title lang="zh">中国电影报道 2025-348</title>
     </programme>
     <programme channel="CCTV6电影" start="20251214221800 +0800" stop="20251214222345 +0800">
-        <title lang="zh">中国福利彩票阳光开奖2025-12-13</title>
+        <title lang="zh">中国福利彩票阳光开奖2025-12-14</title>
     </programme>
     <programme channel="CCTV6电影" start="20251214222345 +0800" stop="20251214230021 +0800">
         <title lang="zh">荒野大镖客（上）</title>
