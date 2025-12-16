@@ -43,7 +43,7 @@ jobs:
           pip install -r requirements.txt
       - name: 执行任务
         run: |
-          python IPTV_PY/SJ.py
+          python MIGU.py
         
       - name: 检测文件是否更新
         id: check_updates
