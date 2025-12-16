@@ -119,6 +119,7 @@ def getddCalcu720p(url, pID):
 def append_All_Live(live, flag, data):
     try:
         respData = get_content(data["pID"])
+        print(respData)
         playurl = getddCalcu720p(respData["body"]["urlInfo"]["url"], data["pID"])
         print(playurl)
 
